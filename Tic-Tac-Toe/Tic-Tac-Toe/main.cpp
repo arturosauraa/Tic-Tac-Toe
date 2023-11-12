@@ -190,7 +190,7 @@ int main() {
         
             if (gameWon) {
                 if (CheckWinner('X')) {
-                    DrawText("Player X wins!", 40, GetScreenHeight() -70, 30, RED);
+                    DrawText("Player X wins!", 40, GetScreenHeight() -70, 30, BLUE);
                 } else if (CheckWinner('O')) {
                     DrawText("Player O wins!", 40, GetScreenHeight() -70, 30, RED);
                 } else{
